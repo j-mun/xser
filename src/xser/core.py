@@ -235,3 +235,6 @@ class SpecNode:
 
   def replace(c, **kwargs):
     return _replace(c, **kwargs)
+
+  def arr_fields(c):
+    return fields(jax.Array)
