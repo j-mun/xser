@@ -11,6 +11,11 @@ specification.
 pip install .
 ```
 
+```bash
+python -m pip install git+https://github.com/j-mun/xser.git
+```
+
+
 For development:
 
 ```bash
